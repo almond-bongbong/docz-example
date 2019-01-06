@@ -1,0 +1,232 @@
+{
+  "config": {
+    "title": "Encar Style Guide",
+    "description": "This is my awesome documentation",
+    "menu": [
+      {
+        "name": "Encar.com",
+        "href": "https://encar.com"
+      },
+      "Style Guide",
+      "Documents"
+    ],
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": false,
+    "themeConfig": {
+      "colors": {
+        "primary": "#da032c"
+      },
+      "styles": {
+        "h1": {}
+      }
+    }
+  },
+  "entries": {
+    "index.mdx": {
+      "name": "Style Guide",
+      "route": "/",
+      "id": "91149a4106ab27ef746308b41227aca8",
+      "filepath": "index.mdx",
+      "link": null,
+      "slug": "index",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "getting-started",
+          "value": "Getting Started"
+        }
+      ]
+    },
+    "src/components/Hello.mdx": {
+      "name": "마크다운 사용법",
+      "menu": "Documents",
+      "id": "f18ec312d09bcda1cfe7691b74c043d3",
+      "filepath": "src/components/Hello.mdx",
+      "link": null,
+      "slug": "src-components-hello",
+      "route": "/src-components-hello",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "마크다운-사용법",
+          "value": "마크다운 사용법"
+        },
+        {
+          "depth": 2,
+          "slug": "우선-깨알-팁",
+          "value": "📍우선 깨알 팁"
+        },
+        {
+          "depth": 2,
+          "slug": "문단",
+          "value": "📍문단"
+        },
+        {
+          "depth": 2,
+          "slug": "제목",
+          "value": "📍제목"
+        },
+        {
+          "depth": 2,
+          "slug": "인용문",
+          "value": "📍인용문"
+        },
+        {
+          "depth": 2,
+          "slug": "목록리스트",
+          "value": "📍목록(리스트)"
+        },
+        {
+          "depth": 3,
+          "slug": "4-1-순서있는-목록번호",
+          "value": "4-1. 순서있는 목록(번호)"
+        },
+        {
+          "depth": 3,
+          "slug": "4-2-순서없는-목록글머리-기호",
+          "value": "4-2. 순서없는 목록(글머리 기호)"
+        },
+        {
+          "depth": 2,
+          "slug": "코드-블럭",
+          "value": "📍코드 블럭"
+        },
+        {
+          "depth": 2,
+          "slug": "인라인-코드",
+          "value": "📍인라인 코드"
+        },
+        {
+          "depth": 2,
+          "slug": "수평선",
+          "value": "📍수평선"
+        },
+        {
+          "depth": 2,
+          "slug": "강조",
+          "value": "📍강조"
+        }
+      ]
+    },
+    "src/components/Buttons/Button.mdx": {
+      "name": "Button",
+      "id": "2877263cc1c17b55159af2a7ab4d04c9",
+      "filepath": "src/components/Buttons/Button.mdx",
+      "link": null,
+      "slug": "src-components-buttons-button",
+      "route": "/src-components-buttons-button",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "button",
+          "value": "Button"
+        },
+        {
+          "depth": 2,
+          "slug": "inline",
+          "value": "Inline"
+        },
+        {
+          "depth": 3,
+          "slug": "true",
+          "value": "true"
+        },
+        {
+          "depth": 3,
+          "slug": "false",
+          "value": "false"
+        },
+        {
+          "depth": 2,
+          "slug": "theme",
+          "value": "Theme"
+        },
+        {
+          "depth": 3,
+          "slug": "red",
+          "value": "red"
+        },
+        {
+          "depth": 3,
+          "slug": "white",
+          "value": "white"
+        },
+        {
+          "depth": 2,
+          "slug": "size",
+          "value": "Size"
+        },
+        {
+          "depth": 3,
+          "slug": "30",
+          "value": "30"
+        },
+        {
+          "depth": 3,
+          "slug": "40",
+          "value": "40"
+        },
+        {
+          "depth": 3,
+          "slug": "50",
+          "value": "50"
+        },
+        {
+          "depth": 2,
+          "slug": "event",
+          "value": "Event"
+        },
+        {
+          "depth": 3,
+          "slug": "onclick",
+          "value": "onClick"
+        }
+      ]
+    },
+    "src/components/Input/Input.mdx": {
+      "name": "Input",
+      "id": "7780b551cb8b02f18f9ea05620d2e411",
+      "filepath": "src/components/Input/Input.mdx",
+      "link": null,
+      "slug": "src-components-input-input",
+      "route": "/src-components-input-input",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "input",
+          "value": "Input"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 3,
+          "slug": "text",
+          "value": "Text"
+        },
+        {
+          "depth": 3,
+          "slug": "password",
+          "value": "Password"
+        },
+        {
+          "depth": 2,
+          "slug": "placeholder",
+          "value": "Placeholder"
+        }
+      ]
+    }
+  }
+}
