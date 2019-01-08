@@ -7,4 +7,6 @@ export const imports = {
     import(/* webpackPrefetch: true, webpackChunkName: "src-components-buttons-button" */ 'src/components/Buttons/Button.mdx'),
   'src/components/Input/Input.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "src-components-input-input" */ 'src/components/Input/Input.mdx'),
+  'src/components/Preloader/Preloader.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "src-components-preloader-preloader" */ 'src/components/Preloader/Preloader.mdx'),
 }

@@ -9,6 +9,22 @@ import Button from './Button'
 
 <PropsTable of={Button} />
 
+## Type
+`button` `anchor`
+
+### button
+
+<Playground>
+  <Button theme="red">Button</Button>
+</Playground>
+
+### anchor
+href, target 속성을 `<a>`태그를 사용하듯 추가하면 된다.
+
+<Playground>
+  <Button type="anchor" href="http://www.encar.com" target="_blank" theme="red">Anchor</Button>
+</Playground>
+
 ## Inline
 
 ### true
@@ -24,6 +40,7 @@ import Button from './Button'
 </Playground>
 
 ## Theme
+`red` `white`
 
 ### red
 
@@ -38,6 +55,7 @@ import Button from './Button'
 </Playground>
 
 ## Size
+`30` `40` `50`
 
 ### 30
 
@@ -59,7 +77,7 @@ import Button from './Button'
 
 ## Event
 
-### onClick
+### onClick(event)
 
 <Playground>
   <Button theme="white" onClick={e => alert('클릭')}>클릭!</Button>

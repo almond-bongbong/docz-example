@@ -131,6 +131,21 @@
         },
         {
           "depth": 2,
+          "slug": "type",
+          "value": "Type"
+        },
+        {
+          "depth": 3,
+          "slug": "button-1",
+          "value": "button"
+        },
+        {
+          "depth": 3,
+          "slug": "anchor",
+          "value": "anchor"
+        },
+        {
+          "depth": 2,
           "slug": "inline",
           "value": "Inline"
         },
@@ -186,8 +201,8 @@
         },
         {
           "depth": 3,
-          "slug": "onclick",
-          "value": "onClick"
+          "slug": "onclickevent",
+          "value": "onClick(event)"
         }
       ]
     },
@@ -225,6 +240,28 @@
           "depth": 2,
           "slug": "placeholder",
           "value": "Placeholder"
+        }
+      ]
+    },
+    "src/components/Preloader/Preloader.mdx": {
+      "name": "Preloader",
+      "id": "fcf567670854beab792f244423145007",
+      "filepath": "src/components/Preloader/Preloader.mdx",
+      "link": null,
+      "slug": "src-components-preloader-preloader",
+      "route": "/src-components-preloader-preloader",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "preloader",
+          "value": "Preloader"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic Usage"
         }
       ]
     }
